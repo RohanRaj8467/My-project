@@ -1,2 +1,2 @@
-# My-project
-My project for an Internship
+# My-project report
+My project report for an Internship of COGNIFYZ
