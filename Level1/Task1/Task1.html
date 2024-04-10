@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .logo{
+            font-size: 2rem;            
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        ul{
+            display: flex;            
+        }
+        li{
+            padding: 15px;
+            list-style-type:none;
+        }
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+        #sec1,#sec2{
+            width: 100%;
+            height: 60vh;
+            text-align: center;
+            padding: 4rem 0px;
+           
+
+            font-size: 1rem;
+            background-color: rgba(245, 122, 22, 0.712);     
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+        
+        }
+        .scroll{
+            margin-top: 15%;
+
+        }
+        .para{
+            margin: 0 15rem;
+        }
+        #sec2{
+            background-color: #fff;
+            color: #000;
+            height: 80vh;    
+        }
+        #sec3{
+            color:#000;
+            background-color: rgb(238, 106, 89);
+            padding: 50px;
+            
+            
+        }
+        .form_title{
+            text-align: center;
+
+        }
+        form{
+            background-color: #fff;
+            border-radius: 50px;
+            padding: 20px;
+            width:250px;
+            margin: 5px auto;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            Simply Page
+        </h1>
+        <ul>
+            <li>
+                <a href="#sec1">Home</a>
+            </li>
+            <li>
+                <a href="#sec2">content</a>
+            </li>
+            <li>
+                <a href="#sec3">Form</a>
+            </li>
+        </ul>
+
+    </header>
+    <section id="sec1">
+        <h1>Level 1<br>Task 1</h1>
+        <h1>Hi Everyone!😎</h1>
+        <p class="para">Thanks to Cognifyz Technologies who gives me this opperutines to enhance my learning in web development.</p>
+        <p class="scroll">Scroll here</p>
+    </section>
+    <section id="sec2">
+        <img src="./ElectionCommissionLOGO.png" alt=" " width="30%">
+        <h1>The form contains Public quires.</h1>
+        <p >The data helps to solve problems </p>
+        <p class="scroll">Scroll here</p>
+    </section>
+    <section id="sec3">
+        <h1 class="form_title">Form Us</h1>
+        <form >
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email"><br>
+            <label for="quires">Quires</label><br>
+            <textarea name="quires" id="quires" cols="30" rows="10"></textarea><br>
+            <center><input type="submit" value="submited"></center>
+
+        </form>
+    </section>
+
+</body>
+</html>
